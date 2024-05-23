@@ -51,7 +51,7 @@ The Simple Web Calculator is an easy-to-use tool for basic arithmetic operations
 - Clear and reset buttons
 - Real-time results
 - Responsive design for desktop and mobile
-- Keyboard support
+  
 
 ## [➡️ Calculator ](https://abhinav2369.github.io/Simple-Web-Calculator/)
 
