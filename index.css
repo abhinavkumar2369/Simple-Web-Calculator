@@ -1,0 +1,208 @@
+/*--------- Importing Google Font ------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* ---------------Main Body-------------- */
+body{
+    /* Defining Height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Spacing and Dimensions */
+    margin:0px;
+    padding:0px;
+
+    /* background */
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Element Formatting */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* Scrolling Fixed */
+    overflow: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    background-color: white;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.name > h1{
+    margin: 0px;
+    font-size: 24px;
+}
+.name > img{
+    padding-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+/* ------------Calculator Box--------------*/
+.calculator-box{
+    padding:10px 10px;
+    background-color: white;
+    height: 600px;
+    width:370px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* ------------Output Box--------------- */
+.output-box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: rgb(45, 34, 255);
+    border-radius: 10px;
+    color: white;
+}
+.expression{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+.output-box #expression{
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.output{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.output-box #output{
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+/* ------------Input Box---------------- */
+.input-box{
+    display: grid;
+    padding: 10px 10px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* -----------Button Container---------- */
+.input:nth-child(1), .input:nth-child(2){
+    visibility:hidden;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------Circular Buttons----------- */
+.circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgba(159, 159, 159, 0.308);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    box-shadow: 0px 0px 3px 0px rgba(130, 130, 130, 0.348);
+}
+.circle:active{
+    box-shadow: 0px 0px 12px 4px rgba(68, 68, 68, 0.348) !important; 
+}
+
+#b-per,#b-u,#b-ce,#b-equal{
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgb(207, 207, 207)
+}
+
+/* -----Clear----- */
+#b-c{
+    background-color: #000000;
+    color: white;
+}
+
+/* -----Subtract----- */
+#b-{
+    font-size: 3rem;
+    letter-spacing: -5px;
+    color: white;
+    background-color: rgb(249, 58, 58);
+    box-shadow: 0px 0px 3px 0px rgb(249, 58, 58);
+}
+
+/* -----Divide----- */
+#b-div{
+    color: white;
+    background-color: #6161ff;
+    box-shadow: 0px 0px 3px 0px #6161ff;
+}
+
+/* -----Multiply----- */
+#b-mul{
+    color: white;
+    background-color: rgb(255, 157, 0);
+    box-shadow: 0px 0px 2px 0px rgb(255, 157, 0);
+
+}
+
+/* -----Add----- */
+#b-add{
+    color: white;
+    font-size: 3rem;
+    background-color: rgb(25, 250, 0);
+    box-shadow: 0px 0px 2px 0px rgba(25,250,0);
+}
+
+/* -----Equal----- */
+#b-equal{
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(83, 83, 83, 0.348);
+}
+
+/* ------Responsiveness----- */
+@media screen and (max-width:1000px){
+    .name{
+        display:none;
+    }
+}
+
+@media screen and (max-width:500px){
+    body{
+        overflow: hidden
+    }
+    .calculator-box{
+        height: 550px;
+        width:300px;
+        padding-left:20px;
+        padding-right: 20px;
+        border-radius: 15px;
+    }
+    .circle{
+        height: 60px;
+        width: 60px;
+    }
+}
