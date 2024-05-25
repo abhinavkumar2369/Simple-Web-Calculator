@@ -4,6 +4,7 @@
      <br/>
      <br/>
      <img alt="Static Badge" src="https://img.shields.io/badge/Website-red?style=for-the-badge">
+     <img alt="Static Badge" src="https://img.shields.io/badge/Web%20Development-7F00FF?style=for-the-badge">
      <br/>
      <br/>
      <!-- Open Source -->
@@ -46,23 +47,34 @@
 ## Overview 🌟
 The Simple Web Calculator is an easy-to-use tool for basic arithmetic operations like addition, subtraction, multiplication, and division. It's perfect for quick, everyday calculations.
 
+
 ## Features 🚀
 - Basic arithmetic: +, -, *, /
 - Clear and reset buttons
 - Real-time results
 - Responsive design for desktop and mobile
+
+
+<!------------------------------------------------->
   
 
 ## [➡️ Calculator ](https://abhinav2369.github.io/Simple-Web-Calculator/)
-
 ![Simple Web Calcualtor](https://github.com/abhinav2369/Simple-Web-Calculator/assets/170245635/d1dd2751-5f7b-467e-babd-b2723fe4ff75)
+
 
 <!------------------------------------------------->
 
 
+## Attribution 🙏
+- Logo Image used in the Repository belong to the [SVG Repo](https://www.svgrepo.com/) Website.
+
+
+<!------------------------------------------------->
+
 
 ## Contributions 🧑‍💻
 Contributions are welcome! Please feel free to submit issues and pull requests.
+
 
 ## License 🪪
 This project is licensed under the [MIT License](LICENSE).
