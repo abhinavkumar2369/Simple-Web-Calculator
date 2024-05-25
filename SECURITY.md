@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-- If you discover a security vulnerability in the Simple Web Calculator, please report it to us via email at - abhinavkumar2369@proton.me
+- If you discover a security vulnerability in the **Simple Web Calculator**, please report it to us via email at - abhinavkumar2369@proton.me
 - Include a detailed description and steps to solve the issue.
 
 
